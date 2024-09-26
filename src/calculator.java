@@ -12,6 +12,7 @@ public class calculator {
 		 n1 =r.nextInt();
 		 n2 =r.nextInt();
 		 System.out.println("Select Operation");
+		 System.out.println("1.Addition \n 2. Subtraction \n 3. Multipliication \n 4.DIvision \n or Reminder(if wrong input)");
 		 ch=r.nextInt();
 		 
 		 if(ch==1)
@@ -23,7 +24,7 @@ public class calculator {
 		 else if(ch==2)
 		 {
 			 cal =n1-n2;
-			 System.out.println("Subtractionn:"+cal);
+			 System.out.println("Subtraction:"+cal);
 		 }
 		 else if(ch==3)
 		 {
